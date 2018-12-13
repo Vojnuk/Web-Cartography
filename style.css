@@ -29,21 +29,8 @@ body {
 	border: 1px solid black;
 	margin-top: 20px;
 	position: relative;
-	z-index: 1;
-	
+	z-index: 1;	
 }
-
-#info {
-  display: inline-block;
-  /*width: 50px;
-  height: 30px;*/  
-  position: absolute;
-  top: 10px;
-  left: 400px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-bottom: 1px solid black;
-  }
 
 .city {
   position: absolute;
@@ -53,12 +40,13 @@ body {
   border-radius: 50%;
 }
 
-
-
 .highlight {
   background-color: black;
 }
 
+[title]{
+	background-color:red;
+}
 
 
 

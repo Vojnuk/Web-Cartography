@@ -27,10 +27,6 @@ for (var i = 0; i < entries.length; ++i) {
   createCity.addEventListener('mouseenter', function(evt){
 	this.classList.add('highlight');
     var name = this.getAttribute('title'); 
-    document.getElementById('info').textContent = name;
-	
-	//var cursor = document
-	//console.log(cursor);
 	
 	var temps = document.createElement('div');
 	temps.classList.add('tempsPosition');
@@ -42,10 +38,8 @@ for (var i = 0; i < entries.length; ++i) {
   });
   
   
-  
   createCity.addEventListener('mouseleave', function(evt){
 	this.classList.remove('highlight');
-    document.getElementById('info').textContent = ''; 
 	document.getElementById('temps').parentNode.removeChild(document.getElementById("temps"))
 	
   });
